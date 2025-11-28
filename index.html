@@ -580,7 +580,9 @@
 
             <div class="contact-form-box">
                 <h3>Send Me a Message</h3>
-                <form id="contact-form" action="https://formspree.io/f/xyzejnvn" method="POST">
+                <form id="contact-form" action="https://formsubmit.co/artinteli.machlearn@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://baghele.github.io/ashok-cloud-ai-architect-portfolio/#contact">
                     <div class="form-group">
                         <input type="text" name="name" placeholder="Your Name" required />
                     </div>
@@ -605,7 +607,6 @@
                     </div>
                     <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
                 </form>
-                <div id="form-status" style="display:none; margin-top:15px; padding:15px; border-radius:6px; text-align:center;"></div>
             </div>
         </div>
     </section>
@@ -618,14 +619,6 @@
     </footer>
 
     <a href="https://wa.me/918319924486" class="floating-whatsapp" target="_blank" title="WhatsApp Me">💬</a>
-
-    <script>
-        document.getElementById('contact-form').addEventListener('submit', function(e) {
-            const btn = this.querySelector('button[type="submit"]');
-            btn.disabled = true;
-            btn.textContent = 'Sending...';
-        });
-    </script>
 
 </body>
 </html>
