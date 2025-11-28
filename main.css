@@ -672,14 +672,21 @@ section {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 40px;
 }
 
 .contact-item {
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(88, 166, 255, 0.1);
+}
+
+.contact-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .contact-label {
@@ -688,6 +695,8 @@ section {
   font-weight: 600;
   margin-bottom: 0;
   font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.3px;
 }
 
 .contact-value {
@@ -695,6 +704,8 @@ section {
   text-decoration: none;
   transition: color 0.3s ease;
   margin-left: 0;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .contact-value:hover {
@@ -705,7 +716,7 @@ section {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .social-link {
