@@ -1,1 +1,38 @@
+title: Ashok Baghele - Senior Cloud & AI Architect
+description: Enterprise consulting services for Cloud Architecture, AI Engineering, Data Engineering, and digital transformation. Available for US and European clients.
+author: Ashok Baghele
+email: ashokbaghele@hotmail.com
+url: https://baghele.github.io/ashok-cloud-ai-architect-portfolio
+github_username: baghele
+linkedin_username: ashok-baghele
+
+# Services Offered
+services:
+  - Cloud Modernization & Architecture
+  - AI/Agentic Systems Engineering
+  - Enterprise Content Management (FileNet)
+  - Data Engineering & Analytics
+  - Technical Consulting & Strategy
+  - Microservices & DevOps
+
+# Expertise Areas
+expertise:
+  - AWS, GCP, Azure (Cloud Architecture)
+  - LLMs, RAG, AI Agents (AI Engineering)
+  - Snowflake, Databricks, Kafka (Data Engineering)
+  - IBM FileNet P8 (Enterprise Systems)
+  - Kubernetes, Terraform, Docker (DevOps)
+
+# Engagement Models
+engagement:
+  hourly: "$150 - $250/hr"
+  project_based: "$5,000 - $100,000+"
+  retainer: "$3,000 - $15,000/month"
+  fulltime: "Negotiable"
+
+# Meta
 theme: jekyll-theme-cayman
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
